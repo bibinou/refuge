@@ -3,3 +3,6 @@ rvm:
   - 1.9.3
 before_script: './script/before_script.sh'
 bundler_args: "--without development production heroku"
+
+notifications:
+  email: false
